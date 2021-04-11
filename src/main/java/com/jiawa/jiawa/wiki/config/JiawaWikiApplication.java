@@ -2,6 +2,7 @@ package com.jiawa.jiawa.wiki.config;
 
 
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,7 @@ import org.springframework.core.env.Environment;
 //@SpringBootApplication(scanBasePackages="com.jiawa.jiawa.wiki.controller")
 @ComponentScan("com.jiawa")
 @SpringBootApplication
+@MapperScan("com.jiawa.jiawa.wiki.mapper")
 public class JiawaWikiApplication {
 	private final static Logger logger = LoggerFactory.getLogger(JiawaWikiApplication.class);
 
