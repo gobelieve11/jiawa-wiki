@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "message": null,
+  "content": [
+    {
+      "id": 1,
+      "name": "《spring boot 开发》",
+      "categoryid1": null,
+      "categoryid2": null,
+      "description": "好好学习",
+      "cover": null,
+      "docCount": null,
+      "voteCount": null,
+      "viewCount": null
+    }
+  ]
+}
